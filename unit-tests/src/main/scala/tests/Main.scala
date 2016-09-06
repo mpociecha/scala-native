@@ -4,7 +4,6 @@ import java.lang.System.exit
 
 object Main {
   val suites = Seq[Suite](
-    tests.SuiteSuite,
     java.lang.IntegerSuite,
     java.lang.LongSuite,
     java.lang.FloatSuite,
@@ -21,7 +20,18 @@ object Main {
     scala.ArrayIntCopySuite,
     scala.ArrayDoubleCopySuite,
     scala.ArrayObjectCopySuite,
-    scala.EqualitySuite
+    scala.EqualitySuite,
+    scala.BooleanSuite,
+    scala.ByteSuite,
+    //scala.CharSuite,
+    scala.DoubleSuite,
+    //scala.FloatSuite,
+    //scala.IntSuite,
+    //scala.LongSuite,
+    //scala.MatchSuite,
+    scala.ShortSuite,
+    scala.UnitSuite,
+    tests.SuiteSuite
   )
 
   def main(args: Array[String]): Unit = {
