@@ -28,7 +28,7 @@ object Main {
     //scala.FloatSuite,
     //scala.IntSuite,
     //scala.LongSuite,
-    //scala.MatchSuite,
+    scala.MatchSuite,
     scala.ShortSuite,
     scala.UnitSuite,
     tests.SuiteSuite
